@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19aa5bde62ed41840995285f50445595, type: 3}
+  m_Name: A
+  m_EditorClassIdentifier: 
+  askMat: Do you have any extra fish? Maybe we could trade?
+  getMat: I really appreciate it.
+  denyMat: "Oh\u2026 did I do something wrong?"
+  smallTalk:
+  - I suppose every day is a holiday when you live on a tropical island.
+  - I'm so grateful we survived that storm.
+  - Rebuilding the radio tower sounds like hard work.
+  - When I get tired, I like to listen to the sea.
+  - I hope the others don't think I am slacking off.
+  - Are you taking enough  breaks? Don't wear yourself out.
+  talkLeave: Life might be tough here but so is life back home. I'd like to stay
+    a little longer.

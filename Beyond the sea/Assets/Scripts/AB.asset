@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19aa5bde62ed41840995285f50445595, type: 3}
+  m_Name: AB
+  m_EditorClassIdentifier: 
+  askMat: If you have any fish, I'll give you materials for them.
+  getMat: Thanks.
+  denyMat: "Hmm\u2026"
+  smallTalk:
+  - Living on a tropical island is nice but the lack of facilities makes it rough.
+  - We should repurpose any debris from the shipwreck.
+  - Do you know how radios work? Not many people do.
+  - Should I make fish stew tonight? I'm kind of sick of it.
+  - If everyone focused on their own task, we'd be more efficient.
+  - Don't sweat the small stuff. Just focus on your what's important.
+  talkLeave: "I couldn't wait to leave at first but now I'm not so sure\u2026"

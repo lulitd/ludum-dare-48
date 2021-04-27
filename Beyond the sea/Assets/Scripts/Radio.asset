@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebce6c0eb2184b748896e80911a218ac, type: 3}
+  m_Name: Radio
+  m_EditorClassIdentifier: 
+  Request: Help fix the radio tower to send a rescue signal
+  acceptTrade: Sending out coordinates now...
+  declineTrade: 
+  trade:
+  - item: {fileID: 11400000, guid: 5ac421195489c784aa8bd387068f16c9, type: 2}
+    Amount: 5
+  - item: {fileID: 11400000, guid: 1e80bea55127e5b45b10f7e019d40906, type: 2}
+    Amount: 3
+  - item: {fileID: 11400000, guid: 80a33f0bbe776f448a0d76a113957ba9, type: 2}
+    Amount: 5
+  reward: []
+  randomSelection: 0
+  repeatable: 0
+  isComplete: 0

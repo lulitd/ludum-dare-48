@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebce6c0eb2184b748896e80911a218ac, type: 3}
+  m_Name: VillagerQuest
+  m_EditorClassIdentifier: 
+  Request: 
+  acceptTrade: 
+  declineTrade: 
+  trade:
+  - item: {fileID: 11400000, guid: 1df2a53c80b5faf4aa654b71ee4b2d98, type: 2}
+    Amount: 3
+  reward:
+  - item: {fileID: 11400000, guid: 5ac421195489c784aa8bd387068f16c9, type: 2}
+    Amount: 2
+  - item: {fileID: 11400000, guid: 80a33f0bbe776f448a0d76a113957ba9, type: 2}
+    Amount: 2
+  - item: {fileID: 11400000, guid: 7045c28217a3b9f42ae19b732f9fb30a, type: 2}
+    Amount: 1
+  - item: {fileID: 11400000, guid: 961e7896334f92b4ba1bee393315ca67, type: 2}
+    Amount: 1
+  randomSelection: 1
+  repeatable: 1
+  isComplete: 0

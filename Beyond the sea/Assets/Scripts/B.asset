@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19aa5bde62ed41840995285f50445595, type: 3}
+  m_Name: B
+  m_EditorClassIdentifier: 
+  askMat: Gimme some fish and I'll give ya something nice in return!
+  getMat: Awesome, this fish looks delish!
+  denyMat: Laaaame.
+  smallTalk:
+  - Wanna go chase the seagulls? It's pretty fun.
+  - That storm was crazy! Wouldn't mind riding that again.
+  - It'll cost ya extra fish if you want my help with the tower.
+  - I'm taking an extra long coconut juice break.
+  - No matter what others say, don't give into "pier" pressure.
+  - Catch any big ones? Let me have first dibs if you do.
+  talkLeave: Everyday is an adventure here! Plus I don't have as many chores.
