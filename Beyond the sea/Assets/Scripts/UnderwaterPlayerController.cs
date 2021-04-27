@@ -117,7 +117,13 @@ public class UnderwaterPlayerController : MonoBehaviour
         if (!isDiving) return;
         ;
         if (!isResurfacing)
-        StartCoroutine(Resurface(SwimStrength));
+     StartCoroutine(Resurface(SwimStrength));
+    }
+
+    public void StartResurface()
+    {
+        if (!isResurfacing)
+            StartCoroutine(Resurface(-1));
     }
 
     private void OnDestroy()
@@ -200,11 +206,21 @@ public class UnderwaterPlayerController : MonoBehaviour
 
         while(transform.position != respawnLocation.position)
         {
-            transform.position = Vector3.Lerp(startPosition, respawnLocation.position, (time/Vector3.Distance(startPosition, respawnLocation.position))*speed);
-            transform.rotation = Quaternion.Lerp(startRotation, quaternion.identity,
-                (time / Quaternion.Dot(startRotation, quaternion.identity)) * speed);
-            time += Time.deltaTime;
-            yield return null;
+            if (speed == -1)
+            {
+                transform.position = respawnLocation.position;
+                transform.rotation = quaternion.identity;
+                yield return null;
+            }
+            else
+            {
+                transform.position = Vector3.Lerp(startPosition, respawnLocation.position,
+                    (time / Vector3.Distance(startPosition, respawnLocation.position)) * speed);
+                transform.rotation = Quaternion.Lerp(startRotation, quaternion.identity,
+                    (time / Quaternion.Dot(startRotation, quaternion.identity)) * speed);
+                time += Time.deltaTime;
+                yield return null;
+            }
         }
         
         walkerAgent.enabled = true;

@@ -17,15 +17,19 @@ MonoBehaviour:
   declineTrade: 
   trade:
   - item: {fileID: 11400000, guid: 1df2a53c80b5faf4aa654b71ee4b2d98, type: 2}
-    Amount: 3
+    Amount: 2
   reward:
+  - item: {fileID: 11400000, guid: 5ac421195489c784aa8bd387068f16c9, type: 2}
+    Amount: 1
+  - item: {fileID: 11400000, guid: 80a33f0bbe776f448a0d76a113957ba9, type: 2}
+    Amount: 1
+  - item: {fileID: 11400000, guid: 7045c28217a3b9f42ae19b732f9fb30a, type: 2}
+    Amount: 1
   - item: {fileID: 11400000, guid: 5ac421195489c784aa8bd387068f16c9, type: 2}
     Amount: 2
   - item: {fileID: 11400000, guid: 80a33f0bbe776f448a0d76a113957ba9, type: 2}
     Amount: 2
-  - item: {fileID: 11400000, guid: 7045c28217a3b9f42ae19b732f9fb30a, type: 2}
-    Amount: 1
-  - item: {fileID: 11400000, guid: 961e7896334f92b4ba1bee393315ca67, type: 2}
+  - item: {fileID: 11400000, guid: 5ac421195489c784aa8bd387068f16c9, type: 2}
     Amount: 1
   randomSelection: 1
   repeatable: 1
